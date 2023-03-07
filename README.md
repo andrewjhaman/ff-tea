@@ -39,7 +39,4 @@ example_image :: () {
 
     stbi_write_png("assets/apollo_11_fft.png", canonical_u8.width, canonical_u8.height, 1, canonical_u8.data.data, 0);
 }
-
-
-
 ```
